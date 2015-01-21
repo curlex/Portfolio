@@ -1,0 +1,33 @@
+Name: Asma Almaksy 
+Student No: 11364941
+Skippy brief
+
+Everything works. 
+
+- Grid Class -
+The initialiser for this class takes in a variable size
+to determine the size of the grid which is obtained from main, 
+which asks the user for the input.
+
+- Kangaroo -
+The initialiser takes in an instance of grid that is used in main. Creates an
+initial position for the kangaroo that is a point object set to (0,0).
+Also variable for number of hops set to 0.
+
+:Method hop!
+This method changes the kangaroos position to the point sent to it.
+It increases the number of hops as well.
+
+:Method move
+This method takes a point to move to, adds it to kangaroos position and checks 
+if its within the boundaries by sending it to grid class's method out_of_bounds
+If its within bounds then hop! method is called with the position to move to.
+
+- Die class -
+The initialiser of this class creates 4 new points, north, east,north and west set to 
+point objects.
+
+:Method throw
+This method gets a random number between 1-4 and based on this number a position 
+to move to is selected.
+

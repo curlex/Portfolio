@@ -1,0 +1,5 @@
+require_relative 'arithmetic_tutor_test'
+require_relative 'question_list_test'
+require_relative 'level_test'
+require_relative 'results_test'
+require_relative 'question_test'
